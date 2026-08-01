@@ -1,4 +1,4 @@
-# Coursework Notes
+# Coursework Practice Scripts
 
 ## Setup
 
