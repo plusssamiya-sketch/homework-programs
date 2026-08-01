@@ -1,14 +1,12 @@
-# Doctoral Study Portfolio: Machine Learning, Deep Learning, and Econometrics
+# Coursework Notes: Machine Learning, Deep Learning, and Econometrics
 
-This repository organizes doctoral-level study assignments for three quantitative courses:
+This repository keeps my course assignments and practice scripts for three quantitative courses:
 
 - `Machine Learning`
 - `Deep Learning`
 - `计量经济学`
 
-Each folder includes course-level notes and self-contained Python programs. The assignments emphasize reproducible experiments, structured modeling workflows, interpretable results, and research-oriented extensions.
-
-The goal is not only to store code, but also to document how a graduate student studies methods: define a question, state assumptions, implement an estimator, diagnose the result, and explain what can be improved.
+Each folder has short notes and Python scripts. I keep the examples self-contained so I can rerun them later without depending on private class data.
 
 ## Repository Structure
 
@@ -35,46 +33,46 @@ The goal is not only to store code, but also to document how a graduate student 
 `-- requirements.txt
 ```
 
-## Study Standard
+## How I Use This Repository
 
-Every assignment is organized around four questions:
+For each topic, I try to keep four things clear:
 
-1. What is the statistical or computational problem?
-2. What assumptions make the estimator meaningful?
-3. How is the method implemented and validated?
-4. What diagnostics reveal failure modes or limitations?
+1. What problem the script is solving.
+2. What assumptions the method needs.
+3. How the result is checked.
+4. What I would change if using real data.
 
-## Course Coverage
+## Course Notes
 
 ### Machine Learning
 
-The machine learning assignments cover supervised learning workflows:
+Machine learning scripts currently cover:
 
 - data preprocessing with leakage-safe pipelines;
 - regression and classification model selection;
 - cross-validation and hyperparameter tuning;
 - model evaluation through RMSE, MAE, R-squared, ROC-AUC, accuracy, and confusion matrices.
-- causal prediction with double machine learning and cross-fitting.
+- double machine learning with cross-fitting.
 
 ### Deep Learning
 
-The deep learning assignments cover PyTorch training templates:
+Deep learning scripts currently cover:
 
 - dataset and dataloader construction;
 - MLP and CNN model definitions;
 - optimization with AdamW;
 - validation tracking, early stopping, dropout, and weight decay.
-- transformer-based sequence modeling and attention-mask handling.
+- a small transformer sequence classifier.
 
 ### 计量经济学
 
-计量经济学作业覆盖常见实证研究方法：
+计量经济学部分目前包括：
 
 - OLS 回归估计与稳健标准误；
 - 异方差检验与多重共线性诊断；
 - 面板数据双重差分 DID；
 - 固定效应与聚类稳健标准误；
-- 工具变量、弱工具变量诊断与 GMM 矩条件。
+- 工具变量、弱工具变量诊断与矩条件。
 
 ## Setup
 
@@ -102,4 +100,4 @@ python "计量经济学\iv_gmm_simulation.py"
 
 All programs use synthetic or built-in datasets so the repository can run without private course data. For a real homework submission, replace the data-generation functions with course datasets while keeping the same modeling and evaluation structure.
 
-See `docs/research_training_plan.md` for a suggested semester workflow and `docs/reproducibility_checklist.md` for submission standards.
+See `docs/research_training_plan.md` for my study schedule and `docs/reproducibility_checklist.md` for the checks I want to do before submitting work.
