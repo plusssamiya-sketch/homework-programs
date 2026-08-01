@@ -1,6 +1,6 @@
 # Machine Learning Assignments
 
-This folder contains professional homework-style programs for core machine learning workflows. Each program is designed to be readable, reproducible, and suitable for extension into a report.
+This folder contains my machine learning homework scripts. The examples use generated data so the files can be rerun without extra datasets.
 
 ## Programs
 
@@ -16,13 +16,13 @@ This folder contains professional homework-style programs for core machine learn
 - Keep experiments reproducible through fixed random seeds and structured output.
 - Distinguish prediction performance from causal identification.
 
-## Research Questions
+## Questions I Am Tracking
 
 1. When does regularization improve out-of-sample prediction without destroying interpretability?
 2. How should classification models be compared when class balance and ranking quality both matter?
 3. How can flexible prediction models be used as nuisance estimators in causal inference?
 
-## Doctoral-Level Extensions
+## Things To Add Later
 
 - Replace synthetic datasets with a real applied microdata or finance dataset.
 - Add model calibration curves and threshold-sensitive cost functions.
