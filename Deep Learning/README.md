@@ -1,6 +1,6 @@
 # Deep Learning Assignments
 
-This folder contains homework programs for neural network modeling. The scripts are written as clean training templates with explicit data loading, model definition, training loops, evaluation, and reproducibility controls.
+This folder contains my deep learning homework scripts. I kept the datasets synthetic or built-in because the main purpose here is to practice the training loop and model structure.
 
 ## Programs
 
@@ -16,13 +16,13 @@ This folder contains homework programs for neural network modeling. The scripts 
 - Keep code modular enough for replacing synthetic data with real course datasets.
 - Understand when attention-based architectures are useful for sequence structure.
 
-## Research Questions
+## Questions I Am Tracking
 
 1. How does a neural network training loop differ from a classical model-selection pipeline?
 2. What diagnostics reveal overfitting before final test evaluation?
 3. How do embeddings and positional encodings allow a transformer to represent ordered data?
 
-## Doctoral-Level Extensions
+## Things To Add Later
 
 - Add experiment logging with multiple random seeds.
 - Compare MLP, CNN, and transformer models under the same validation protocol.
